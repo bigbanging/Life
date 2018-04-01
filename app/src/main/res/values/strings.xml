@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Life</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_tips">注册成功需要前往邮箱验证，否在无法登录</string>
+</resources>
