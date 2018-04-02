@@ -37,6 +37,8 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="请输入用户名"
+            android:inputType="text"
+            android:paddingLeft="5dp"
             android:textColor="@color/white"
             android:background="@drawable/edit_bg"
             android:layout_marginRight="15dp"
@@ -54,6 +56,8 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:hint="请输入密码"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
             android:background="@drawable/edit_bg"
             android:textColor="@color/white"
             android:layout_marginRight="15dp"
@@ -63,6 +67,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <CheckBox
+                android:id="@+id/cb_login_remember"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -71,6 +76,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="30dp"/>
             <TextView
+                android:id="@+id/tv_login_find_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="修改或找回密码？"

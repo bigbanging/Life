@@ -12,7 +12,7 @@ import android.util.Log;
  */
 public class L {
     public static final boolean DEBUG = true;
-    public static final String TAG = "";
+    public static final String TAG = "日志信息";
     //日志类型IWDEF
     public static void d(String text) {
         if (DEBUG) {
