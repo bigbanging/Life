@@ -41,7 +41,9 @@
             android:theme="@style/ActivityFullScreen" />
         <activity android:name=".ui.LoginActivity" />
         <activity android:name=".ui.RegisterActivity" />
-        <activity android:name=".ui.ModifyPasswordActivity"></activity>
+        <activity android:name=".ui.ModifyPasswordActivity" />
+        <activity android:name=".ui.LogisticInquiryActivity" />
+        <activity android:name=".ui.AttributiveInquiryActivity"></activity>
     </application>
 
 </manifest>
