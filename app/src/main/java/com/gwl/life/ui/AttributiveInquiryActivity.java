@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.gwl.life.R;
+import com.gwl.life.utils.L;
 import com.gwl.life.utils.StaticClass;
 import com.kymjs.rxvolley.RxVolley;
 import com.kymjs.rxvolley.client.HttpCallback;
@@ -119,6 +120,7 @@ public class AttributiveInquiryActivity extends BaseActivity implements View.OnC
             @Override
             public void onSuccess(String t) {
 //                Toast.makeText(AttributiveInquiryActivity.this, t, Toast.LENGTH_SHORT).show();
+                L.i(t);
                 parseJson(t);
             }
         });
@@ -144,14 +146,13 @@ public class AttributiveInquiryActivity extends BaseActivity implements View.OnC
                 iv_china.setImageResource(R.drawable.china_telecom);
             }*/
             switch (company) {
-                case "中国移动":
+                case "移动":
                     iv_china.setBackgroundResource(R.drawable.china_mobile);
-                    iv_china.setVisibility(View.VISIBLE);
                     break;
-                case "中国联通":
+                case "联通":
                     iv_china.setBackgroundResource(R.drawable.china_unicom);
                     break;
-                case "中国电信":
+                case "电信":
                     iv_china.setBackgroundResource(R.drawable.china_telecom);
                     break;
                 default:

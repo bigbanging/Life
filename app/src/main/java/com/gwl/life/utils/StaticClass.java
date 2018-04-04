@@ -17,4 +17,6 @@ public class StaticClass {
     public static final String JUHE_LOGISTIC_APP_KEY = "f6841d7bbf7336ce1379785442b0d01f";
     //手机归属地
     public static final String JUHE_PHONE_APP_KEY = "b3f0959e9cd869a840c3f7b91c1d1f23";
+    //图灵机器人 智能管家的问答机器人
+    public static final String TURING_ROBOT_APP_KEY = "dda201d154d34b249117104cacc02675";
 }
