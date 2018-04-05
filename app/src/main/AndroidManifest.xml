@@ -43,7 +43,8 @@
         <activity android:name=".ui.RegisterActivity" />
         <activity android:name=".ui.ModifyPasswordActivity" />
         <activity android:name=".ui.LogisticInquiryActivity" />
-        <activity android:name=".ui.AttributiveInquiryActivity"></activity>
+        <activity android:name=".ui.AttributiveInquiryActivity" />
+        <activity android:name=".ui.ShowWechatArticleActivity"></activity>
     </application>
 
 </manifest>

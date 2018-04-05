@@ -35,17 +35,19 @@ dependencies {
     //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务，以下是最新的bmob-sdk:
     //CircleImageView
     //RxVolley
+    compile('cn.bmob.android:bmob-sdk:3.5.5') {
+        exclude group: 'io.reactivex'
+    }
+    compile('com.kymjs.rxvolley:rxvolley:1.1.4') {
+        exclude group: 'io.reactivex'
+    }
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:design:26.0.0-alpha1'
     compile 'com.android.support:support-v4:26.+'
     compile 'com.tencent.bugly:crashreport:latest.release'
     compile 'com.tencent.bugly:nativecrashreport:latest.release'
-    compile ('cn.bmob.android:bmob-sdk:3.5.5'){
-        exclude group:'io.reactivex'
-    }
     compile 'de.hdodenhof:circleimageview:2.2.0'
-    compile('com.kymjs.rxvolley:rxvolley:1.1.4') {
-        exclude group:'io.reactivex'
-    }
     testCompile 'junit:junit:4.12'
+    //Picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }

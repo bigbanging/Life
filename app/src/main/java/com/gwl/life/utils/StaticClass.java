@@ -19,4 +19,8 @@ public class StaticClass {
     public static final String JUHE_PHONE_APP_KEY = "b3f0959e9cd869a840c3f7b91c1d1f23";
     //图灵机器人 智能管家的问答机器人
     public static final String TURING_ROBOT_APP_KEY = "dda201d154d34b249117104cacc02675";
+    //微信精选文章
+    public static final String JUHE_WECHAT_ARTICLE_APP_KEY = "5e82892a6bedea01039b46404bc489e5";
+    //妹子接口
+    public static final String GANK_MEIZI_API = "http://gank.io/api/search/query/listview/category/福利/count/50/page/1";
 }
