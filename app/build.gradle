@@ -50,4 +50,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     //Picasso
     compile 'com.squareup.picasso:picasso:2.5.2'
+    //PhotoView
+    compile 'com.github.chrisbanes:PhotoView:1.3.0'
 }

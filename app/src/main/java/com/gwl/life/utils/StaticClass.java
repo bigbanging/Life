@@ -22,5 +22,5 @@ public class StaticClass {
     //微信精选文章
     public static final String JUHE_WECHAT_ARTICLE_APP_KEY = "5e82892a6bedea01039b46404bc489e5";
     //妹子接口
-    public static final String GANK_MEIZI_API = "http://gank.io/api/search/query/listview/category/福利/count/50/page/1";
+    public static final String GANK_FULI_API = "http://gank.io/api/data/%E7%A6%8F%E5%88%A9/500/1";
 }
